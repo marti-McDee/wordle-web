@@ -1,0 +1,7 @@
+# Do not commit these folders
+.idea/
+node_modules/
+
+# Packages #
+*.json
+*.env
