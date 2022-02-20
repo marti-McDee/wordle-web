@@ -1,6 +1,7 @@
-# Do not commit these folders
+# Do not commit these files/folders
 .idea/
 node_modules/
+.env
 
 # Packages #
 *.json

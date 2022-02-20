@@ -6,7 +6,7 @@ const envVariables = process.env;
 
 const {
     RAPID_API_KEY,
-    HOST,
+    PROD_HOST,
     PORT
 } = envVariables;
 
@@ -53,4 +53,4 @@ app.get('/check', (req, res) => {
     });
 });
 
-app.listen(PORT, () => console.log('Server running on port ' + PORT));
+app.listen(PORT, PROD_HOST, () => console.log('Server running on port ' + PORT));
